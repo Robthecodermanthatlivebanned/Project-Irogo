@@ -1,0 +1,18 @@
+"Extras"
+{
+    "chapter1"
+    {
+        "title" "Irogo: The Start"
+        "subtitle"  "The Start"
+        "command"   "map 1772145399" //map name to start the first chapter
+        "pic"   "vgui/chapters/chapter1"
+    }
+	// You can copy as many as you want
+    "chapter2"
+    {
+        "title" "Chapter 2"
+        "subtitle"  "The Portal Gun"
+        "command"   "map sp_a2_01" //map name to start the second chapter and so on
+        "pic"   "vgui/chapters/chapter2"
+    }
+}
