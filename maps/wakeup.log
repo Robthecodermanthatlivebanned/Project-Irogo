@@ -2344,3 +2344,557 @@ Level flags = 1
 Total triangle count: 120
 Writing c:\program files (x86)\steam\steamapps\common\portal 2\project-irogo\maps\wakeup.bsp
 0 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam k\steamapps\common\Portal 2\Project-Irogo\materials
+Loading C:\Program Files (x86)\Steam k\steamapps\common\Portal 2\Project-Irogo\maps\wakeup.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam k\steamapps\common\Portal 2\Project-Irogo\maps\wakeup.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4490 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 11
+Reduced 7 texdatas to 7 (135 bytes to 135)
+Writing C:\Program Files (x86)\Steam k\steamapps\common\Portal 2\Project-Irogo\maps\wakeup.bsp
+
+nummapplanes:     (    80 / 65536 )
+nummapbrushes:    (    12 /  8192 )
+nummapbrushsides: (    76 / 65536 )
+num_map_overlays: (     0 /   512 )
+nummodels:        (     1 /  1024 )
+num_entities:     (    12 / 16384 )
+
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\program files (x86)\steam k\steamapps\common\portal 2\project-irogo\maps\wakeup.bsp
+reading c:\program files (x86)\steam k\steamapps\common\portal 2\project-irogo\maps\wakeup.prt
+  20 portalclusters
+  66 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 360
+Average clusters visible: 18
+Building PAS...
+Average clusters audible: 20
+visdatasize:284  compressed from 320
+writing c:\program files (x86)\steam k\steamapps\common\portal 2\project-irogo\maps\wakeup.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam k\steamapps\common\portal 2\project-irogo\maps\wakeup.bsp
+50 faces
+2804 square feet [403840.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+50 patches before subdivision
+512 patches after subdivision
+59 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 37069, max 169
+transfer lists:   0.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(59452, 56088, 36469)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(18822, 17672, 11443)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6908, 6443, 4153)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2430, 2257, 1451)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(883, 815, 522)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(316, 291, 186)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(114, 105, 67)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(41, 38, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(15, 14, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 58 (6% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 12/8192          144/98304    ( 0.1%) 
+brushsides              76/65536         608/524288   ( 0.1%) 
+planes                  80/65536        1600/1310720  ( 0.1%) 
+vertexes                84/65536        1008/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   50/65536        2800/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               29/65536        1624/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          50/0             200/0        ( 0.0%) 
+leaves                  53/65536        1696/2097152  ( 0.1%) 
+leaffaces               62/65536         124/131072   ( 0.1%) 
+leafbrushes             26/65536          52/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              336/512000       1344/2048000  ( 0.1%) 
+edges                  214/256000        856/1024000  ( 0.1%) 
+LDR worldlights         59/8192         5900/819200   ( 0.7%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       25128/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         284/16777216 ( 0.0%) 
+entdata               [variable]        3708/393216   ( 0.9%) 
+LDR ambient table       53/65536         212/262144   ( 0.1%) 
+HDR ambient table       53/65536         212/262144   ( 0.1%) 
+LDR leaf ambient       183/65536        5124/1835008  ( 0.3%) 
+HDR leaf ambient        53/65536        1484/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74422/0        ( 0.0%) 
+physics               [variable]        4490/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 1
+
+Total triangle count: 120
+Writing c:\program files (x86)\steam k\steamapps\common\portal 2\project-irogo\maps\wakeup.bsp
+0 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam k\steamapps\common\Portal 2\Project-Irogo\materials
+Loading C:\Program Files (x86)\Steam k\steamapps\common\Portal 2\Project-Irogo\maps\wakeup.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam k\steamapps\common\Portal 2\Project-Irogo\maps\wakeup.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4479 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 11
+Reduced 7 texdatas to 7 (144 bytes to 144)
+Writing C:\Program Files (x86)\Steam k\steamapps\common\Portal 2\Project-Irogo\maps\wakeup.bsp
+
+nummapplanes:     (    80 / 65536 )
+nummapbrushes:    (    12 /  8192 )
+nummapbrushsides: (    76 / 65536 )
+num_map_overlays: (     0 /   512 )
+nummodels:        (     1 /  1024 )
+num_entities:     (    14 / 16384 )
+
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\program files (x86)\steam k\steamapps\common\portal 2\project-irogo\maps\wakeup.bsp
+reading c:\program files (x86)\steam k\steamapps\common\portal 2\project-irogo\maps\wakeup.prt
+  20 portalclusters
+  66 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 360
+Average clusters visible: 18
+Building PAS...
+Average clusters audible: 20
+visdatasize:284  compressed from 320
+writing c:\program files (x86)\steam k\steamapps\common\portal 2\project-irogo\maps\wakeup.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam k\steamapps\common\portal 2\project-irogo\maps\wakeup.bsp
+50 faces
+2804 square feet [403840.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+50 patches before subdivision
+512 patches after subdivision
+59 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 37069, max 169
+transfer lists:   0.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(33800, 30974, 21394)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10609, 9719, 6711)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(3874, 3547, 2449)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1354, 1240, 856)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(488, 446, 308)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(174, 159, 110)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(62, 57, 39)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(22, 20, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(8, 7, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 58 (6% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 12/8192          144/98304    ( 0.1%) 
+brushsides              76/65536         608/524288   ( 0.1%) 
+planes                  80/65536        1600/1310720  ( 0.1%) 
+vertexes                84/65536        1008/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   50/65536        2800/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               29/65536        1624/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          50/0             200/0        ( 0.0%) 
+leaves                  53/65536        1696/2097152  ( 0.1%) 
+leaffaces               62/65536         124/131072   ( 0.1%) 
+leafbrushes             26/65536          52/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              336/512000       1344/2048000  ( 0.1%) 
+edges                  214/256000        856/1024000  ( 0.1%) 
+LDR worldlights         59/8192         5900/819200   ( 0.7%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       28152/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         284/16777216 ( 0.0%) 
+entdata               [variable]        4204/393216   ( 1.1%) 
+LDR ambient table       53/65536         212/262144   ( 0.1%) 
+HDR ambient table       53/65536         212/262144   ( 0.1%) 
+LDR leaf ambient       182/65536        5096/1835008  ( 0.3%) 
+HDR leaf ambient        53/65536        1484/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74422/0        ( 0.0%) 
+physics               [variable]        4479/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 1
+
+Total triangle count: 120
+Writing c:\program files (x86)\steam k\steamapps\common\portal 2\project-irogo\maps\wakeup.bsp
+0 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam k\steamapps\common\Portal 2\Project-Irogo\materials
+Loading C:\Program Files (x86)\Steam k\steamapps\common\Portal 2\Project-Irogo\maps\wakeup.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam k\steamapps\common\Portal 2\Project-Irogo\maps\wakeup.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4467 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 29 texinfos to 11
+Reduced 6 texdatas to 6 (128 bytes to 128)
+Writing C:\Program Files (x86)\Steam k\steamapps\common\Portal 2\Project-Irogo\maps\wakeup.bsp
+
+nummapplanes:     (    80 / 65536 )
+nummapbrushes:    (    12 /  8192 )
+nummapbrushsides: (    76 / 65536 )
+num_map_overlays: (     0 /   512 )
+nummodels:        (     1 /  1024 )
+num_entities:     (    14 / 16384 )
+
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\program files (x86)\steam k\steamapps\common\portal 2\project-irogo\maps\wakeup.bsp
+reading c:\program files (x86)\steam k\steamapps\common\portal 2\project-irogo\maps\wakeup.prt
+  20 portalclusters
+  66 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 360
+Average clusters visible: 18
+Building PAS...
+Average clusters audible: 20
+visdatasize:284  compressed from 320
+writing c:\program files (x86)\steam k\steamapps\common\portal 2\project-irogo\maps\wakeup.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam k\steamapps\common\portal 2\project-irogo\maps\wakeup.bsp
+50 faces
+2804 square feet [403840.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+50 patches before subdivision
+512 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 37069, max 169
+transfer lists:   0.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 12/8192          144/98304    ( 0.1%) 
+brushsides              76/65536         608/524288   ( 0.1%) 
+planes                  80/65536        1600/1310720  ( 0.1%) 
+vertexes                84/65536        1008/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   50/65536        2800/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               29/65536        1624/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          50/0             200/0        ( 0.0%) 
+leaves                  53/65536        1696/2097152  ( 0.1%) 
+leaffaces               62/65536         124/131072   ( 0.1%) 
+leafbrushes             26/65536          52/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              336/512000       1344/2048000  ( 0.1%) 
+edges                  214/256000        856/1024000  ( 0.1%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       37452/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         284/16777216 ( 0.0%) 
+entdata               [variable]        4144/393216   ( 1.1%) 
+LDR ambient table       53/65536         212/262144   ( 0.1%) 
+HDR ambient table       53/65536         212/262144   ( 0.1%) 
+LDR leaf ambient        20/65536         560/1835008  ( 0.0%) 
+HDR leaf ambient        53/65536        1484/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74422/0        ( 0.0%) 
+physics               [variable]        4467/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 1
+
+Total triangle count: 120
+Writing c:\program files (x86)\steam k\steamapps\common\portal 2\project-irogo\maps\wakeup.bsp
+0 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam k\steamapps\common\Portal 2\Project-Irogo\materials
+Loading C:\Program Files (x86)\Steam k\steamapps\common\Portal 2\Project-Irogo\maps\wakeup.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam k\steamapps\common\Portal 2\Project-Irogo\maps\wakeup.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4467 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 29 texinfos to 11
+Reduced 6 texdatas to 6 (128 bytes to 128)
+Writing C:\Program Files (x86)\Steam k\steamapps\common\Portal 2\Project-Irogo\maps\wakeup.bsp
+
+nummapplanes:     (    80 / 65536 )
+nummapbrushes:    (    12 /  8192 )
+nummapbrushsides: (    76 / 65536 )
+num_map_overlays: (     0 /   512 )
+nummodels:        (     1 /  1024 )
+num_entities:     (    20 / 16384 )
+
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\program files (x86)\steam k\steamapps\common\portal 2\project-irogo\maps\wakeup.bsp
+reading c:\program files (x86)\steam k\steamapps\common\portal 2\project-irogo\maps\wakeup.prt
+  20 portalclusters
+  66 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 360
+Average clusters visible: 18
+Building PAS...
+Average clusters audible: 20
+visdatasize:284  compressed from 320
+writing c:\program files (x86)\steam k\steamapps\common\portal 2\project-irogo\maps\wakeup.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam k\steamapps\common\portal 2\project-irogo\maps\wakeup.bsp
+50 faces
+2804 square feet [403840.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+50 patches before subdivision
+512 patches after subdivision
+7 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 34705, max 167
+transfer lists:   0.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(28763, 28786, 28820)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10635, 10678, 10743)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4149, 4180, 4227)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1559, 1575, 1601)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(592, 600, 613)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(223, 227, 233)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(84, 86, 89)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(32, 33, 34)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(12, 12, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 5, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 12/8192          144/98304    ( 0.1%) 
+brushsides              76/65536         608/524288   ( 0.1%) 
+planes                  80/65536        1600/1310720  ( 0.1%) 
+vertexes                84/65536        1008/786432   ( 0.1%) 
+nodes                   51/65536        1632/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   50/65536        2800/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               29/65536        1624/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          50/0             200/0        ( 0.0%) 
+leaves                  53/65536        1696/2097152  ( 0.1%) 
+leaffaces               62/65536         124/131072   ( 0.1%) 
+leafbrushes             26/65536          52/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              336/512000       1344/2048000  ( 0.1%) 
+edges                  214/256000        856/1024000  ( 0.1%) 
+LDR worldlights          7/8192          700/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       37452/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         284/16777216 ( 0.0%) 
+entdata               [variable]        5769/393216   ( 1.5%) 
+LDR ambient table       53/65536         212/262144   ( 0.1%) 
+HDR ambient table       53/65536         212/262144   ( 0.1%) 
+LDR leaf ambient       182/65536        5096/1835008  ( 0.3%) 
+HDR leaf ambient        53/65536        1484/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/646      ( 0.2%) 
+pakfile               [variable]       96386/0        ( 0.0%) 
+physics               [variable]        4467/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 1
+
+Total triangle count: 120
+Writing c:\program files (x86)\steam k\steamapps\common\portal 2\project-irogo\maps\wakeup.bsp
+0 seconds elapsed
