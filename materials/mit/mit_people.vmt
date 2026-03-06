@@ -1,6 +1,6 @@
 "LightmappedGeneric"
 {
-	"$basetexture" "irogo/mit_people"
+	"$basetexture" "mit/mit_people"
 	"$surfaceprop" "Default"
 	"$translucent" 1
 }
