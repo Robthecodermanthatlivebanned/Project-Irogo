@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8870"
-	"mapversion" "20"
+	"mapversion" "28"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "20"
+	"mapversion" "28"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1533,7 +1533,8 @@ entity
 {
 	"id" "19"
 	"classname" "info_player_start"
-	"angles" "0 180 0"
+	"angles" "0 0 0"
+	"spawnflags" "0"
 	"origin" "0 208 36"
 	editor
 	{
@@ -1557,6 +1558,8 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "WakeUpBed"
 	"origin" "-56 224 32"
 	editor
 	{
@@ -1573,6 +1576,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"globalname" "WakeupBed"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
 	"model" "models/props/bed_cover_reference.mdl"
@@ -1580,6 +1584,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
+	"spawnflags" "0"
 	"origin" "-56 224 34"
 	editor
 	{
@@ -1732,6 +1737,7 @@ entity
 		"OnMapSpawn" "WhiteFadeFade0-1"
 		"OnMapSpawn" "TiktokWakeUpPlaySound0-1"
 		"OnMapSpawn" "WakeupcameraEnable0-1"
+		"OnMapSpawn" "WakeUpBedSetAnimationopening0-1"
 	}
 	"origin" "-64 128 33"
 	editor
@@ -1777,18 +1783,18 @@ entity
 {
 	"id" "605"
 	"classname" "point_viewcontrol"
-	"acceleration" "500"
+	"acceleration" "400"
 	"angles" "-60 89.9999 0"
 	"deceleration" "500"
 	"fov" "90"
 	"fov_rate" "1"
 	"interpolatepositiontoplayer" "0"
-	"spawnflags" "3"
+	"spawnflags" "7"
 	"speed" "0"
 	"targetname" "Wakeupcamera"
-	"trackspeed" "20"
+	"trackspeed" "10"
 	"wait" "5"
-	"origin" "-56 200 88"
+	"origin" "-56 200 80"
 	editor
 	{
 		"color" "220 30 220"
