@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8870"
-	"mapversion" "94"
+	"mapversion" "96"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "94"
+	"mapversion" "96"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3066,7 +3066,7 @@ entity
 	"cspinup" "0"
 	"fadeinsecs" "0"
 	"fadeoutsecs" "0"
-	"health" "6"
+	"health" "4"
 	"lfomodpitch" "0"
 	"lfomodvol" "0"
 	"lforate" "0"
@@ -3076,7 +3076,7 @@ entity
 	"pitchstart" "100"
 	"preset" "0"
 	"radius" "1760"
-	"spawnflags" "1"
+	"spawnflags" "17"
 	"spindown" "0"
 	"spinup" "0"
 	"targetname" "MusicBackground"
@@ -3548,7 +3548,25 @@ entity
 	"color" "255 255 255"
 	"message" "this is very profensionally made"
 	"textsize" "10"
-	"origin" "1184 -64 128"
+	"origin" "1216 -64 128"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1040"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "MusicBackgroundToggleSound0-1"
+	}
+	"origin" "928 -128 65"
 	editor
 	{
 		"color" "220 30 220"
