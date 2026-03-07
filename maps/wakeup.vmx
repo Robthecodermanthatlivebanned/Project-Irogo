@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8870"
-	"mapversion" "40"
+	"mapversion" "41"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "40"
+	"mapversion" "41"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2045,7 +2045,7 @@ entity
 	{
 		"OnTimer" "MorningTunesToggleSound0-1"
 	}
-	"origin" "-7 122.5 33"
+	"origin" "44 122 33"
 	editor
 	{
 		"color" "220 30 220"
