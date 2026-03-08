@@ -1,7 +1,7 @@
 "GameInfo"
 {
 	game 		"Project Irogo"
-	title 		"Project Irogo"
+	title 		"Project Irogo"  
 	GameData	"portal2.fgd"
 	gamelogo 	1
 
