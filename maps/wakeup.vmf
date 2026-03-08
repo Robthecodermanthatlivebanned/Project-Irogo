@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8870"
-	"mapversion" "42"
+	"mapversion" "45"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "42"
+	"mapversion" "45"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1923,6 +1923,7 @@ entity
 		"OnMapSpawn" "TiktokWakeUpPlaySound0-1"
 		"OnMapSpawn" "WakeupcameraEnable0-1"
 		"OnMapSpawn" "WakeUpBedSetAnimationopening0-1"
+		"OnMapSpawn" "RandomKnockGenRunScriptCodePlayRandomSound()0-1"
 	}
 	"origin" "-64 128 33"
 	editor
@@ -2075,15 +2076,92 @@ entity
 	"spawnflags" "48"
 	"spindown" "0"
 	"spinup" "0"
-	"targetname" "KnockingSound"
+	"targetname" "KnockingSound1"
 	"volstart" "0"
-	"origin" "123 156 33"
+	"origin" "215 129 94"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1255"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "Containerride.LinearDoorKnock03"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "KnockingSound3"
+	"volstart" "0"
+	"origin" "215 112 94"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1275"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "Containerride.LinearDoorKnock02"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "KnockingSound2"
+	"volstart" "0"
+	"origin" "215 96 94"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1288"
+	"classname" "logic_script"
+	"targetname" "RandomKnockGen"
+	"vscripts" "randomknockloop.nut"
+	"origin" "165 48.5 33"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
 	}
 }
 cameras
