@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8870"
-	"mapversion" "45"
+	"mapversion" "49"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "45"
+	"mapversion" "49"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1923,7 +1923,6 @@ entity
 		"OnMapSpawn" "TiktokWakeUpPlaySound0-1"
 		"OnMapSpawn" "WakeupcameraEnable0-1"
 		"OnMapSpawn" "WakeUpBedSetAnimationopening0-1"
-		"OnMapSpawn" "RandomKnockGenRunScriptCodePlayRandomSound()0-1"
 	}
 	"origin" "-64 128 33"
 	editor
@@ -2045,7 +2044,9 @@ entity
 	connections
 	{
 		"OnTimer" "MorningTunesToggleSound0-1"
-		"OnTimer" "KnockingSoundPlaySound0-1"
+		"OnTimer" "KnockingSound1PlaySound0-1"
+		"OnTimer" "KnowSoundIntervalEnable0-1"
+		"OnTimer" "PlayMusicAfterDisable0-1"
 	}
 	"origin" "44 122 33"
 	editor
@@ -2153,9 +2154,51 @@ entity
 {
 	"id" "1288"
 	"classname" "logic_script"
-	"targetname" "RandomKnockGen"
+	"targetname" "RandomKnockGenSCRIPT"
 	"vscripts" "randomknockloop.nut"
-	"origin" "165 48.5 33"
+	"origin" "194 73 33"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "1367"
+	"classname" "logic_case"
+	"targetname" "RandomKnockGen"
+	connections
+	{
+		"OnCase01" "KnockingSound1PlaySound0-1"
+		"OnCase02" "KnockingSound2PlaySound0-1"
+		"OnCase03" "KnockingSound3PlaySound0-1"
+	}
+	"origin" "192 111 33"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1378"
+	"classname" "logic_timer"
+	"RefireTime" "5"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "KnowSoundInterval"
+	"UseRandomTime" "0"
+	connections
+	{
+		"OnTimer" "RandomKnockGenPickRandom0-1"
+	}
+	"origin" "194 93 33"
 	editor
 	{
 		"color" "220 30 220"
