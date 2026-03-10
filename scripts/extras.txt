@@ -10,9 +10,9 @@
 	// You can copy as many as you want
     "chapter2"
     {
-        "title" "Chapter 2"
+        "title" "Irogo: The WakeUp"
         "subtitle"  "The Portal Gun"
-        "command"   "map sp_a2_01" //map name to start the second chapter and so on
+        "command"   "map wakeup" //map name to start the second chapter and so on
         "pic"   "vgui/chapters/chapter2"
     }
 }
