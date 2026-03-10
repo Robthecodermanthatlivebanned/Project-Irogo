@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8870"
-	"mapversion" "73"
+	"mapversion" "75"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "73"
+	"mapversion" "75"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3421,6 +3421,7 @@ entity
 	"id" "2590"
 	"classname" "prop_dynamic"
 	"angles" "0 180 0"
+	"DefaultAnim" "idle01"
 	"DisableBoneFollowers" "0"
 	"disableflashlight" "0"
 	"disablereceiveshadows" "0"

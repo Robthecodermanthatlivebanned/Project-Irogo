@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8870"
-	"mapversion" "72"
+	"mapversion" "75"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "72"
+	"mapversion" "75"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3418,9 +3418,10 @@ entity
 }
 entity
 {
-	"id" "2493"
+	"id" "2590"
 	"classname" "prop_dynamic"
-	"angles" "0 94 0"
+	"angles" "0 180 0"
+	"DefaultAnim" "idle01"
 	"DisableBoneFollowers" "0"
 	"disableflashlight" "0"
 	"disablereceiveshadows" "0"
@@ -3440,7 +3441,7 @@ entity
 	"MinAnimTime" "5"
 	"mincpulevel" "0"
 	"mingpulevel" "0"
-	"model" "models/npcs/personality_sphere/personality_sphere.mdl"
+	"model" "models/barney.mdl"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
 	"RandomAnimation" "0"
@@ -3454,14 +3455,14 @@ entity
 	"solid" "6"
 	"StartDisabled" "0"
 	"SuppressAnimSounds" "0"
-	"targetname" "BarneyPlaceHolder"
-	"origin" "272 112 96"
+	"targetname" "BarneyNPC"
+	"origin" "256 112 33"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 2000]"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
