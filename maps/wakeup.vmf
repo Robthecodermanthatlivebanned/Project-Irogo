@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8870"
-	"mapversion" "122"
+	"mapversion" "126"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "122"
+	"mapversion" "126"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3052,13 +3052,13 @@ world
 		side
 		{
 			"id" "534"
-			"plane" "(832 256 32) (1312 256 32) (1312 256 192)"
+			"plane" "(1088 256 32) (1312 256 32) (1312 256 192)"
 			vertices_plus
 			{
-				"v" "832 256 32"
+				"v" "1088 256 32"
 				"v" "1312 256 32"
 				"v" "1312 256 192"
-				"v" "832 256 192"
+				"v" "1088 256 192"
 			}
 			"material" "CONCRETE/CONCRETE_BTS_FLOOR002E_TOP"
 			"uaxis" "[1 0 0 -256] 0.25"
@@ -3070,11 +3070,11 @@ world
 		side
 		{
 			"id" "533"
-			"plane" "(832 224 192) (832 256 192) (1312 256 192)"
+			"plane" "(1088 224 192) (1088 256 192) (1312 256 192)"
 			vertices_plus
 			{
-				"v" "832 224 192"
-				"v" "832 256 192"
+				"v" "1088 224 192"
+				"v" "1088 256 192"
 				"v" "1312 256 192"
 				"v" "1312 224 192"
 			}
@@ -3088,12 +3088,12 @@ world
 		side
 		{
 			"id" "532"
-			"plane" "(1312 256 32) (832 256 32) (832 224 32)"
+			"plane" "(1312 256 32) (1088 256 32) (1088 224 32)"
 			vertices_plus
 			{
 				"v" "1312 256 32"
-				"v" "832 256 32"
-				"v" "832 224 32"
+				"v" "1088 256 32"
+				"v" "1088 224 32"
 				"v" "1312 224 32"
 			}
 			"material" "CONCRETE/CONCRETE_BTS_FLOOR002E_TOP"
@@ -3106,13 +3106,13 @@ world
 		side
 		{
 			"id" "531"
-			"plane" "(832 224 32) (832 256 32) (832 256 192)"
+			"plane" "(1088 224 32) (1088 256 32) (1088 256 192)"
 			vertices_plus
 			{
-				"v" "832 224 32"
-				"v" "832 256 32"
-				"v" "832 256 192"
-				"v" "832 224 192"
+				"v" "1088 224 32"
+				"v" "1088 256 32"
+				"v" "1088 256 192"
+				"v" "1088 224 192"
 			}
 			"material" "CONCRETE/CONCRETE_BTS_FLOOR002E_TOP"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -3142,12 +3142,12 @@ world
 		side
 		{
 			"id" "529"
-			"plane" "(1312 224 32) (832 224 32) (832 224 192)"
+			"plane" "(1312 224 32) (1088 224 32) (1088 224 192)"
 			vertices_plus
 			{
 				"v" "1312 224 32"
-				"v" "832 224 32"
-				"v" "832 224 192"
+				"v" "1088 224 32"
+				"v" "1088 224 192"
 				"v" "1312 224 192"
 			}
 			"material" "CONCRETE/CONCRETE_BTS_FLOOR002E_TOP"
@@ -5275,6 +5275,7 @@ entity
 		"OnMapSpawn" "TiktokWakeUpPlaySound0-1"
 		"OnMapSpawn" "WakeupcameraEnable0-1"
 		"OnMapSpawn" "WakeUpBedSetAnimationopening0-1"
+		"OnMapSpawn" "commandCommandrecord demotofixwalk0-1"
 	}
 	"origin" "-64 128 33"
 	editor
@@ -5628,7 +5629,7 @@ entity
 		"OnOpen" "KnowSoundIntervalDisable0-1"
 		"OnOpen" "BarneyDoorTalkPlaySound0-1"
 		"OnOpen" "RoomDoorLock0-1"
-		"OnOpen" "BarneyWalkTooScriptBeginSequence5-1"
+		"OnOpen" "BarneyWalkTooScript1BeginSequence5-1"
 	}
 	solid
 	{
@@ -5822,38 +5823,139 @@ entity
 }
 entity
 {
-	"id" "2728"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "2"
-	"spawnflags" "0"
-	"origin" "1584 112 36"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "2722"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "1"
-	"origin" "288 112 36"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
 	"id" "2895"
+	"classname" "scripted_sequence"
+	"angles" "0 0 0"
+	"disableX360" "0"
+	"m_bDisableNPCCollisions" "0"
+	"m_bIgnoreGravity" "0"
+	"m_bLoopActionSequence" "0"
+	"m_bSynchPostIdles" "0"
+	"m_flRadius" "0"
+	"m_flRepeat" "0"
+	"m_fMoveTo" "1"
+	"m_iszEntity" "BarneyNPC"
+	"m_iszNextScript" "BarneyWalkTooScript2"
+	"m_iszPlay" "walk_all"
+	"m_iszPostIdle" "idle0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"onplayerdeath" "0"
+	"spawnflags" "64"
+	"targetname" "BarneyWalkTooScript1"
+	"origin" "528 112 32"
+	editor
+	{
+		"color" "255 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "4512"
+	"classname" "scripted_sequence"
+	"angles" "0 0 0"
+	"disableX360" "0"
+	"m_bDisableNPCCollisions" "0"
+	"m_bIgnoreGravity" "0"
+	"m_bLoopActionSequence" "0"
+	"m_bSynchPostIdles" "0"
+	"m_flRadius" "0"
+	"m_flRepeat" "0"
+	"m_fMoveTo" "1"
+	"m_iszEntity" "BarneyNPC"
+	"m_iszNextScript" "BarneyWalkTooScript3"
+	"m_iszPlay" "walk_all"
+	"m_iszPostIdle" "idle0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"onplayerdeath" "0"
+	"spawnflags" "64"
+	"targetname" "BarneyWalkTooScript2"
+	"origin" "848 112 32"
+	editor
+	{
+		"color" "255 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "4538"
+	"classname" "scripted_sequence"
+	"angles" "0 0 0"
+	"disableX360" "0"
+	"m_bDisableNPCCollisions" "0"
+	"m_bIgnoreGravity" "0"
+	"m_bLoopActionSequence" "0"
+	"m_bSynchPostIdles" "0"
+	"m_flRadius" "0"
+	"m_flRepeat" "0"
+	"m_fMoveTo" "1"
+	"m_iszEntity" "BarneyNPC"
+	"m_iszNextScript" "BarneyWalkTooScript4"
+	"m_iszPlay" "walk_all"
+	"m_iszPostIdle" "idle0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"onplayerdeath" "0"
+	"spawnflags" "64"
+	"targetname" "BarneyWalkTooScript3"
+	"origin" "1088 112 32"
+	editor
+	{
+		"color" "255 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "4544"
+	"classname" "scripted_sequence"
+	"angles" "0 0 0"
+	"disableX360" "0"
+	"m_bDisableNPCCollisions" "0"
+	"m_bIgnoreGravity" "0"
+	"m_bLoopActionSequence" "0"
+	"m_bSynchPostIdles" "0"
+	"m_flRadius" "0"
+	"m_flRepeat" "0"
+	"m_fMoveTo" "1"
+	"m_iszEntity" "BarneyNPC"
+	"m_iszNextScript" "BarneyWalkTooScript5"
+	"m_iszPlay" "walk_all"
+	"m_iszPostIdle" "idle0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"onplayerdeath" "0"
+	"spawnflags" "64"
+	"targetname" "BarneyWalkTooScript4"
+	"origin" "1376 112 32"
+	editor
+	{
+		"color" "255 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "4549"
 	"classname" "scripted_sequence"
 	"angles" "0 0 0"
 	"disableX360" "0"
@@ -5873,8 +5975,8 @@ entity
 	"mingpulevel" "0"
 	"onplayerdeath" "0"
 	"spawnflags" "64"
-	"targetname" "BarneyWalkTooScript"
-	"origin" "992 112 32"
+	"targetname" "BarneyWalkTooScript5"
+	"origin" "1584 112 32"
 	editor
 	{
 		"color" "255 0 255"
@@ -5885,92 +5987,16 @@ entity
 }
 entity
 {
-	"id" "3831"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "5"
-	"origin" "688 112 36"
+	"id" "4567"
+	"classname" "point_clientcommand"
+	"targetname" "command"
+	"origin" "-64 32 33"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "3833"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "6"
-	"origin" "496 112 36"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "3919"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "7"
-	"origin" "1024 112 36"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "3922"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "8"
-	"origin" "1232 112 36"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "3924"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "9"
-	"origin" "1392 112 36"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "3926"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "10"
-	"origin" "864 112 36"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
