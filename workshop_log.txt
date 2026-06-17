@@ -1,7 +1,7 @@
 
-Workshop Log Initiated: (05/25/2026 - 20:49:38)
+Workshop Log Initiated: (06/16/2026 - 15:07:33)
 -----------------------------------------------------
 [BaseModPanel] Querying for subscribed files
 [BaseModPanel] Querying for published files
 [BaseModPanel] Queue complete.
-[BaseModPanel] Queue history complete.
+[BaseModPanel] Failed to enumerate published file actions by user (Error: 21)
