@@ -35,6 +35,7 @@
 		SearchPaths
 		{
 			Game				|gameinfo_path|.
+			Game	|gameinfo_path|../bee2
 			Game				portal2_dlc2
 			Game				portal2
 		}
